@@ -17,30 +17,75 @@ Current symptom assessment methods are inefficient, leading to unreliable self-d
 - Pandas: Data manipulation and analysis.
 - Jupyter Notebook: Data preprocessing, exploration and initial analysis.
 - OpenAI: AI models for generating intelligent recommendations and embeddings.
-- Streamlit: Interactive web application for doctors and patients.
+- Streamlit: Interactive web application for patients.
 - FastAPI: Backend service management.
 - Snowflake: Secure and robust data storage,data handling.
 
 ## Project Description
 Our system comprises these interconnected modules:
 
-### Data Processing with Apache Airflow:
+**Data Processing with Apache Airflow:**
 - Manages and orchestrates data workflows.
 - Processes diverse medical data sources for real-time insights.
 
-### Pinecone and OpenAI for Personalized Recommendations:
+**Pinecone and OpenAI for Personalized Recommendations:**
 - Leverages Pinecone's vector database for efficient data retrieval and OpenAI's capabilities for intelligent data processing.
-- Provides personalized medicine lists, doctor suggestions, and hospital recommendations.
+- Provides personalized medicine lists, CVS Store locations.
   
-### Snowflake for Data Analysis and Storage:
+**Snowflake for Data Analysis and Storage:**
 - Extracts the data from Amazon S3.
 - Performed Data cleaning, formatting and modelling. Interacts with FastAPI.
 
-### Streamlit-Based Doctor's Portal:
+**Streamlit-Based Portal:**
 - A user-friendly interface for medical professionals to access patient information, input symptoms, and receive AI-driven diagnostic and treatment suggestions.
 
-### FastAPI for Backend Services:
+**FastAPI for Backend Services:**
 - Handles requests from the Streamlit frontend, interacting with Pinecone and OpenAI.
 - Integrates with a PostgreSQL database for robust data management.
+
+## Architecture Diagram
+![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/assets/144849239/6d023bda-1fd5-4314-a64e-5032ae2e58cd)
+
+## How to use this repository
+
+Airflow
+├── Dockerfile
+├── dags
+│ └── dag1
+├── docker-compose.yaml
+├── logs
+│ └── scheduler
+│ └── latest -> /opt/airflow/logs/scheduler/2023-12-15
+└── requirements.txt
+README.md
+Snowflake
+├── database.sql
+├── 1.load_data.py
+├── 2.Normalization.py
+└── convert_xlsx_to_csv.py
+Streamlit
+├── Home.py
+├── .csv
+├── images
+│ └── black.jpeg
+└── pages
+├── About.py
+|── patient.py
+├── requirements.txt
+└── test.py
+fastapi
+├── Profile
+│ └── main.py
+└── requirements.txt
+└── runtime.txt
+
+
+
+
+
+
+
+
+
 
 
