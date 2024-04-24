@@ -46,38 +46,50 @@ Our system comprises these interconnected modules:
 ## Architecture Diagram
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/assets/144849239/6d023bda-1fd5-4314-a64e-5032ae2e58cd)
 
-## How to use this repository
+# How to use this repository
 
-Airflow
-├── Dockerfile
-├── dags
-│ └── dag1
-├── docker-compose.yaml
-├── logs
-│ └── scheduler
-│ └── latest -> /opt/airflow/logs/scheduler/2023-12-15
-└── requirements.txt
-README.md
-Snowflake
-├── database.sql
-├── 1.load_data.py
-├── 2.Normalization.py
-└── convert_xlsx_to_csv.py
-Streamlit
-├── Home.py
-├── .csv
-├── images
-│ └── black.jpeg
-└── pages
-├── About.py
-|── patient.py
-├── requirements.txt
-└── test.py
-fastapi
-├── Profile
-│ └── main.py
-└── requirements.txt
+Airflow  
+├── Dockerfile  
+├── dags  
+│   └── dag1  
+│       └── main.py  
+├── docker-compose.yaml  
+├── logs  
+│   └── scheduler  
+│       └── latest -> /opt/airflow/logs/scheduler/2024-04-24 
+└── requirements.txt  
+README.md  
+Snowflake  
+├── database.sql  
+├── 1.load_data.py  
+├── 2.Normalization.py  
+└── convert_xlsx_to_csv.py  
+Streamlit  
+├── Home.py  
+├── .csv  
+├── images  
+│   └── black.jpeg  
+└── pages  
+    ├── About.py  
+    └── patient.py  
+├── requirements.txt  
+└── test.py  
+fastapi  
+├── Profile  
+│   └── main.py  
+└── requirements.txt  
 └── runtime.txt
+
+## How to run the Application
+
+- Download the code from github: https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject
+- Run the Airflow from the above github repository or in your local
+- Configure Snowflake in your local following the instructions from here
+- Navigate to the following file and run it.
+cd Snowflake 1.database.sql
+- Initiate CI/CD in your github repository. By the end of CI/CD you should be able to see the Database configured with required datasets and connections.
+- Create an RDS with preferably PostgreSQL database.
+- Run the Streamlit App after configuring the secrets. Or directly here. Streamlit.
 
 
 
