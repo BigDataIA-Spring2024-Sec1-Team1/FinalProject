@@ -72,40 +72,27 @@ Our system comprises these interconnected modules:
 ├── airflow
 │   ├── Dockerfile
 │   ├── dags
-│   │   ├── sandbox.py
-│   │   ├── sandbox1.txt
+│   │   ├── dag1.py
+│   │   ├── dag2.py
+│   │   └── dag3.py
+│   │   ├── dag4.py
 │   │   └── test.py
-├── grobid_client_python
 │   ├── logs
 │   │   └── scheduler
 │   │       └── latest
-├── output_data
-│   ├── cleaned_csv
-│   │   └── 224_links.txt
-│   └── requirements.txt
-├── requirements_old.txt
-├── scripts
-│   ├── driver.py
-│   ├── output_data
-│   │   ├── cleaned_csv
-│   │   │   └── 224_links.txt
-│   │   └── parse_grobid_xml.py
 │   ├── requirements.txt
 │   ├── snowflake_setup.py
 │   ├── utility.py
-│   └── web_scraping_url_dataset_creation.py
-└── scripts1
-    └── welcome.py
-
-airflow_test
-├── Dockerfile
-├── airflow
+├── Streamlit
 │   ├── Dockerfile
 │   ├── dags
-│   │   ├── sandbox.py
-│   │   ├── sandbox1.txt
+│   │   ├── dag1.py
+│   │   ├── dag2.py
+│   │   └── dag3.py
+│   │   ├── dag4.py
 │   │   └── test.py
-└── hsandbox.py
+
+
 ```
 
 ## How to run the Application
