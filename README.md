@@ -1,6 +1,16 @@
 # FinalProject
 Big Data Final Project
 
+## Technologes
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![Amazon AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-<COLOR_CODE>?style=for-the-badge&logoColor=white)
+![Langchain](https://img.shields.io/badge/Langchain-<COLOR_CODE>?style=for-the-badge&logoColor=white)
 
 ## CodeLab 
 https://codelabs-preview.appspot.com/?file_id=1CtC72t9EJxhyDA-04CaVzQOXvmUvcP1naWeVDfIpUyA#8
