@@ -31,7 +31,6 @@ Current symptom assessment methods are inefficient, leading to unreliable self-d
 - Jupyter Notebook: Data preprocessing, exploration and initial analysis.
 - OpenAI: AI models for generating intelligent recommendations and embeddings.
 - Streamlit: Interactive web application for patients.
-- FastAPI: Backend service management.
 - Snowflake: Secure and robust data storage,data handling.
 
 ## Project Description
@@ -52,10 +51,6 @@ Our system comprises these interconnected modules:
 **Streamlit-Based Portal:**
 - A user-friendly interface for medical professionals to access patient information, input symptoms, and receive AI-driven diagnostic and treatment suggestions.
 
-**FastAPI for Backend Services:**
-- Handles requests from the Streamlit frontend, interacting with Pinecone and OpenAI.
-- Integrates with a PostgreSQL database for robust data management.
-
 ## Architecture Diagram
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/Architecture%20Diagram.png)
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/dag1.png)
@@ -69,6 +64,8 @@ Our system comprises these interconnected modules:
 ├── .gitignore
 ├── LICENSE
 ├── README.md
+├── .github/workflows
+   ├── superlinter.yml
 ├── airflow
 │   ├── Dockerfile
 │   ├── dags
@@ -81,16 +78,13 @@ Our system comprises these interconnected modules:
 │   │   └── scheduler
 │   │       └── latest
 │   ├── requirements.txt
-│   ├── snowflake_setup.py
-│   ├── utility.py
+│   ├── Pipfile
+│   ├── docker-compose.yaml
 ├── Streamlit
-│   ├── Dockerfile
-│   ├── dags
-│   │   ├── dag1.py
-│   │   ├── dag2.py
-│   │   └── dag3.py
-│   │   ├── dag4.py
-│   │   └── test.py
+│   │   ├── final.py
+│   │   ├── Pipfile
+│   │   └── Pipfile.lock
+│   │   ├── audio.mp3
 
 
 ```
