@@ -90,7 +90,7 @@ def plot():
     sql_query = "SELECT * FROM MEDICATIONHISTORY"
     cur.execute(sql_query)
     data_fetch=cur.fetchall()
-    df=pd.DataFrame(data_fetch, columns=['Date','Drug_Name','Output','Symptoms','Username'])
+    df=pd.DataFrame(data_fetch, columns=['Date','Drug_Name','Output','Symptoms','USERNAME'])
 
     # Generate text for the word cloud from the DataFrame column
     drug_name = ' '.join(df['Drug_Name'].astype(str))
@@ -257,7 +257,7 @@ def registration():
             return
 
         user_data = {
-            'Username': [username],
+            'USERNAME': [username],
             'Age': [age],
             'Gender': [gender],
             'Email': [email],
@@ -343,6 +343,7 @@ def testrun_drug(query, i):
                         'Symptoms': [query],
                         'USERNAME': [st.session_state['username']]
                     }
+                            
                     
                             df = pd.DataFrame(user_data)
                             
@@ -946,9 +947,6 @@ def  settings():
 
         # Previous Data (Replace with your actual previous data retrieval logic)
         previous_username = df['USERNAME'][0]
-        previous_email = df['Email'][0]
-        previous_password = df['Password'][0]
-        previous_address = df['Address'][0]
 
         # Update Username
         st.subheader("Update Username")
@@ -1006,9 +1004,7 @@ def  settings():
                 st.error("Medical History cannot be null")
 
             st.success("Successfully updated your details.")
-
-
-        user_data = {
+            user_data = {
                                 'USERNAME': [new_username],
                                 'Age': [new_age],
                                 'Gender': [new_gender],
@@ -1018,19 +1014,17 @@ def  settings():
                                 'Zipcode': [new_zipcode],
                                 'MedicalHistory': [new_history]
                             }
-                            
-        df = pd.DataFrame(user_data)
+            df = pd.DataFrame(user_data)
                                     
-                                    # Constants for Snowflake
-        USERNAME = 'DEV'
-        PASSWORD = 'Dev12345'
-        ACCOUNT = 'phdsaxs-kib61200'
-        DB_NAME = 'HealthResponseSystem'
-        WAREHOUSE = 'COMPUTE_WH'
-        TABLECONTENT= 'USERDETAILS'
-
-                                    # Configure connection URL for Snowflake
-        conn= snowflake.connector.connect(
+            # Constants for Snowflake
+            USERNAME = 'DEV'
+            PASSWORD = 'Dev12345'
+            ACCOUNT = 'phdsaxs-kib61200'
+            DB_NAME = 'HealthResponseSystem'
+            WAREHOUSE = 'COMPUTE_WH'
+            TABLECONTENT= 'USERDETAILS'
+            # Configure connection URL for Snowflake
+            conn= snowflake.connector.connect(
                                         user=USERNAME,
                                         password=PASSWORD,
                                         account=ACCOUNT,
@@ -1039,14 +1033,13 @@ def  settings():
                                         schema='PUBLIC',
                                         role='ACCOUNTADMIN'
                                     )
-
-        cur=conn.cursor()
-        cur.execute("""UPDATE USERDETAILS
+            cur=conn.cursor()
+            cur.execute("""UPDATE USERDETAILS
             SET "USERNAME" = %s, "Age" = %s, "Gender" = %s, "Email" = %s, "Password" = %s, "Address" = %s, "Zipcode" = %s, "MedicalHistory"= %s
             WHERE "USERNAME" = %s;
         """, (new_username, new_age, new_gender, new_email, new_password, new_address, new_zipcode, new_history, previous_username))
-        conn.commit()
-        cur.close()
+            conn.commit()
+            cur.close()
 
 
 
