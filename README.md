@@ -53,15 +53,15 @@ Our system comprises these interconnected modules:
 ## Architecture Diagram
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/Architecture%20Diagram.png)
 
-# Dag1  Architecture Diagram
+## Dag1  Architecture Diagram
 
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/dag1%20(2).png)
 
-# Dag2  Architecture Diagram
+## Dag2  Architecture Diagram
 
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/dag2.png)
 
-# Dag3 and 4  Architecture Diagram
+## Dag3 and 4  Architecture Diagram
 
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/architecture_diagram1.png)
 
@@ -109,7 +109,7 @@ cd Snowflake 1.database.sql
 
 
 
-# Instructions to run streamlit and Airflow locally
+## Instructions to run streamlit and Airflow locally
 
 Download the streamlit folder and run the following commands
 
