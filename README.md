@@ -96,13 +96,18 @@ Our system comprises these interconnected modules:
 - Navigate to the following file and run it.
 cd Snowflake 1.database.sql
 - Initiate CI/CD in your github repository. By the end of CI/CD you should be able to see the Database configured with required datasets and connections.
-- Create an RDS with preferably PostgreSQL database.
 - Run the Streamlit App after configuring the secrets. Or directly here. Streamlit.
 
 
 # References
 
 
+
+Pinecone: Developed by OpenAI, Pinecone is an open-source Python library designed to leverage the functionalities of the GPT (Generative Pre-trained Transformer) models. It provides a user-friendly interface for fine-tuning, generating text, and conducting various natural language processing tasks with GPT models. Pinecone is equipped with features for text generation, completion, summarization, and more, making it a valuable tool for those engaged in natural language understanding and generation.
+
+OpenAI GPT(https://openai.com/gpt): OpenAI's GPT (Generative Pre-trained Transformer) is a leading-edge natural language processing model known for its use of transformer architecture. Pre-trained on extensive text datasets, it excels at generating and interpreting text with a human-like quality. GPT models handle a broad array of language tasks such as text generation, completion, summarization, translation, and more, positioning them as essential tools in fields ranging from healthcare to entertainment.
+
+Snowflake(https://www.snowflake.com/): Snowflake is a cloud-based data warehousing service that supports the storage, management, and analysis of large amounts of structured and semi-structured data. It is known for its scalability, flexibility, and high performance, which enable complex analytics and data insight extraction. The platform's architecture decouples storage and compute functions, allowing for independent scaling and optimizing costs. Snowflake enhances data analytics workflows with its SQL support and seamless integration with prevalent BI tools, enabling effective data-driven decision-making.
 
 
 
