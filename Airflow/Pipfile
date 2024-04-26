@@ -1,0 +1,45 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+beautifulsoup4 = "*"
+black = "*"
+tiktoken = "*"
+openai = "*"
+pinecone-client = "*"
+unstructured = "*"
+nltk = "*"
+python-magic-bin = "*"
+fastapi = "*"
+jinja2 = "*"
+uvicorn = "*"
+streamlit = "*"
+streamlit-chat = "*"
+tqdm = "*"
+requests = "*"
+python-dotenv = "*"
+snowflake-sqlalchemy = "*"
+sqlalchemy = "*"
+pandas = "*"
+boto3 = "*"
+pypdf2 = "*"
+scrapy = "*"
+selenium = "*"
+webscraping = "*"
+scrapy-selenium = "*"
+validators = "*"
+pydantic = "*"
+pytest = "*"
+elementpath = "*"
+matplotlib = "*"
+pyarrow = "<10.1.0,>=10.0.1"
+webdriver-manager = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+
