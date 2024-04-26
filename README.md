@@ -52,7 +52,7 @@ Our system comprises these interconnected modules:
 
 ## Architecture Diagram
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/Architecture%20Diagram.png)
-![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/dag1(2).png)
+![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/dag1 (2).png)
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/dag2.png)
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/architecture_diagram1.png)
 
