@@ -16,7 +16,7 @@
 ## CodeLab 
 https://codelabs-preview.appspot.com/?file_id=1CtC72t9EJxhyDA-04CaVzQOXvmUvcP1naWeVDfIpUyA#8
 ## Airflow
-http://35.227.61.146:8080/home
+http://34.73.27.240:8501/
 ## Streamlit
 http://35.227.61.146:8501/
 
