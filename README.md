@@ -1,5 +1,5 @@
 # FinalProject
-Big Data Final Project
+AI Healthcare System
 
 ## Technologes
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
