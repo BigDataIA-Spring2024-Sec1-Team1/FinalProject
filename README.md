@@ -16,9 +16,9 @@
 ## CodeLab 
 https://codelabs-preview.appspot.com/?file_id=1CtC72t9EJxhyDA-04CaVzQOXvmUvcP1naWeVDfIpUyA#8
 ## Airflow
-http://34.73.27.240:8501/
+http://35.227.61.146:8080/home
 ## Streamlit
-http://35.227.61.146:8501/
+http://34.73.27.240:8501/
 
 ## Overview
 The AI-Enhanced Healthcare Response System provides a user-friendly platform for symptom assessment and medication guidance. Integrated with CVS, it offers personalized health insights, streamlining access to treatments. The system aims to improve healthcare accessibility, early disease detection, and patient empowerment through efficient data management and resource optimization.
