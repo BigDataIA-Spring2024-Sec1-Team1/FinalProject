@@ -110,6 +110,17 @@ OpenAI GPT(https://openai.com/gpt): OpenAI's GPT (Generative Pre-trained Transfo
 Snowflake(https://www.snowflake.com/): Snowflake is a cloud-based data warehousing service that supports the storage, management, and analysis of large amounts of structured and semi-structured data. It is known for its scalability, flexibility, and high performance, which enable complex analytics and data insight extraction. The platform's architecture decouples storage and compute functions, allowing for independent scaling and optimizing costs. Snowflake enhances data analytics workflows with its SQL support and seamless integration with prevalent BI tools, enabling effective data-driven decision-making.
 
 
+# Contributions
+WE ATTEST THAT WE HAVEN'T USED ANY OTHER STUDENTS' WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK
+
+| Contributor | Contributions            | Percentage |
+|-------------|--------------------------|------------|
+| Dev Mithunisvar Premraj       | Airflow Orchestration, LLM |33.33%|
+| Aneesh Koka        | Streamlit, LLM,Deployment | 33.33% |
+| Rishabh Shah         | Streamlit, LLM, Snowflake, WhisperAI| 33.33% |
+
+
+
 
 
 
