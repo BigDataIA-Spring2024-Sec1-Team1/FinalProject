@@ -108,6 +108,30 @@ cd Snowflake 1.database.sql
 - Run the Streamlit App after configuring the secrets. Or directly here. Streamlit.
 
 
+
+# Instructions to run streamlit and Airflow locally
+
+Download the streamlit folder and run the following commands
+
+```plaintext
+pipenv shell
+
+pipenv install
+
+streamlit run final.py
+
+```
+
+Download the Airflow folder and run the following commands
+
+```plaintext
+docker compose --build
+
+
+```
+
+
+
 # References
 
 
