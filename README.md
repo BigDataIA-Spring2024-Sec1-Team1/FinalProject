@@ -44,7 +44,7 @@ Our system comprises these interconnected modules:
 - Integrates with a PostgreSQL database for robust data management.
 
 ## Architecture Diagram
-![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/Architecture%20Diagram.jpe)
+![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/Architecture%20Diagram.png)
 
 # How to use this repository
 
