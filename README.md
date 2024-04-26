@@ -125,9 +125,7 @@ streamlit run final.py
 Download the Airflow folder and run the following commands
 
 ```plaintext
-docker compose --build
-
-
+docker compose up --build
 ```
 
 
