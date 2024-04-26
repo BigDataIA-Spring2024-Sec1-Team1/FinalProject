@@ -54,7 +54,7 @@ Our system comprises these interconnected modules:
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/Architecture%20Diagram.png)
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/dag1.png)
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/dag2.png)
-![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/architecture_diagram.png)
+![image](https://github.com/BigDataIA-Spring2024-Sec1-Team1/FinalProject/blob/main/architecture_diagram1.png)
 
 # How to use this repository
 
