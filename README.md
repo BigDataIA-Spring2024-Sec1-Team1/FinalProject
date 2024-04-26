@@ -51,37 +51,49 @@ Our system comprises these interconnected modules:
 
 # How to use this repository
 
-Airflow  
-├── Dockerfile  
-├── dags  
-│   └── dag1  
-│       └── main.py  
-├── docker-compose.yaml  
-├── logs  
-│   └── scheduler  
-│       └── latest -> /opt/airflow/logs/scheduler/2024-04-24 
-└── requirements.txt  
-README.md  
-Snowflake  
-├── database.sql  
-├── 1.load_data.py  
-├── 2.Normalization.py  
-└── convert_xlsx_to_csv.py  
-Streamlit  
-├── Home.py  
-├── .csv  
-├── images  
-│   └── black.jpeg  
-└── pages  
-    ├── About.py  
-    └── patient.py  
-├── requirements.txt  
-└── test.py  
-fastapi  
-├── Profile  
-│   └── main.py  
-└── requirements.txt  
-└── runtime.txt
+```plaintext
+.
+├── .gitignore
+├── LICENSE
+├── README.md
+├── airflow
+│   ├── Dockerfile
+│   ├── dags
+│   │   ├── sandbox.py
+│   │   ├── sandbox1.txt
+│   │   └── test.py
+├── grobid_client_python
+│   ├── logs
+│   │   └── scheduler
+│   │       └── latest
+├── output_data
+│   ├── cleaned_csv
+│   │   └── 224_links.txt
+│   └── requirements.txt
+├── requirements_old.txt
+├── scripts
+│   ├── driver.py
+│   ├── output_data
+│   │   ├── cleaned_csv
+│   │   │   └── 224_links.txt
+│   │   └── parse_grobid_xml.py
+│   ├── requirements.txt
+│   ├── snowflake_setup.py
+│   ├── utility.py
+│   └── web_scraping_url_dataset_creation.py
+└── scripts1
+    └── welcome.py
+
+airflow_test
+├── Dockerfile
+├── airflow
+│   ├── Dockerfile
+│   ├── dags
+│   │   ├── sandbox.py
+│   │   ├── sandbox1.txt
+│   │   └── test.py
+└── hsandbox.py
+
 
 ## How to run the Application
 
