@@ -13,7 +13,7 @@ import boto3
 s3 = boto3.client("s3")
 
 # Initialize Base URLs
-BASE_URL = 'https://www.drugs.com'
+BASE_URL =  'https://www.drugs.com'
 DRUG_INFO_URL = f'{BASE_URL}/drug_information.html'
 
 aws_access_key_id = os.getenv("aws_access_key_id")
